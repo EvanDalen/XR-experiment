@@ -36,7 +36,7 @@ function init() {
             geo,
             new THREE.MeshLambertMaterial({color: 'green'})
         );
-        mesh.position.set(0, 1.5, -15);
+        mesh.position.set(0, 1.5, -20);
 
         console.log("adding font mesh")
         scene.add(mesh);
